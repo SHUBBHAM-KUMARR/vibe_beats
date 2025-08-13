@@ -1,0 +1,20 @@
+{
+  "name": "vibe-play",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Vibe Play is a music application.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHUBBHAM-KUMARR/vibe_play.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SHUBBHAM-KUMARR/vibe_play/issues"
+  },
+  "homepage": "https://github.com/SHUBBHAM-KUMARR/vibe_play#client/index.html"
+}

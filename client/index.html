@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vibe%20Play</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+    integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body class="bg-slate-100">
+  <header class="bg-slate-400 w-full sm:h-24 flex items-center sm:space-x-28 ">
+    <div id="logo" class=" ml-6">
+
+
+      <!--logo created by me for prompting chatgpt to create a svg -->
+      <!--
+      <span class="text-slate-50 text-2xl font-bold gap-[0]">&nbsp;Vibe&nbsp;<i class="fa-solid fa-play-circle "
+          style="color:white;font-size: 28px;"></i>&nbsp;Play</span>
+           -->
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 40" fill="white" class="w-[180px] h-[40px]">
+        <!-- "Vibe" text -->
+        <text x="0" y="28" font-size="24" font-weight="bold" font-family="sans-serif">Vibe</text>
+
+        <!-- Play icon touching "Vibe" -->
+        <g transform="translate(64, 8)">
+          <circle cx="10" cy="12" r="10" fill="white" />
+          <polygon points="8,6 8,18 16,12" fill="black" />
+        </g>
+
+        <!-- "Play" text touching icon -->
+        <text x="96" y="28" font-size="24" font-weight="bold" font-family="sans-serif">Play</text>
+      </svg>
+
+
+    </div>
+
+    <nav class="flex sm:gap-4 items-center sm:h-[48px] w-fit bg-slate-100 border-none rounded-3xl ">
+      <ul class="flex sm:gap-12 text-slate-700 sm:text-[20px] font-normal items-center  sm:pl-6 ">
+        <li>Songs</li>
+        <div class="h-[full] w-[0.5px]   bg-black">&nbsp;</div>
+        <li>Artist</li>
+        <span class="h-[full] w-[0.5px]    bg-black">&nbsp
+        </span>
+        <li>Genre</li>
+        <div class="h-[full] w-[0.5px]    bg-black ">&nbsp;</div>
+        <li>
+          <button id="search-init" type="submit"
+            class="w-[40px] h-[40px] bg-slate-300 border-none rounded-full mr-4 my-2 "><i class="fa fas fa-search "
+              style="color:azure; font-size:20px"></i>
+          </button>
+
+          <!-- search box after click -->
+          <div id="search-box" class="hidden w-[386px]">
+            <form action="" class="flex h-full ">
+              <label for="search-input"></label>
+              <input type="search" id="search-input"
+                class=" bg-slate-300  w-[80%] h-[full] border-none   px-2 text-[14px] outline-none" />
+              <button id="search-init" type="submit" class="w-[20%] h-[48px] bg-slate-400 rounded-r-3xl  pr-[8px] "><i
+                  class="fa fas fa-search " style="color:azure; font-size:20px;padding: 8px; "></i>
+
+              </button>
+            </form>
+
+
+          </div>
+
+        </li>
+
+
+      </ul>
+
+
+
+    </nav>
+
+
+  </header>
+  <script src="script.js"></script>
+</body>
+
+</html>
