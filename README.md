@@ -1,2 +1,2 @@
-# vibe_play
-Vibe Play is a music application.
+# vibe_beats
+Vibe beats is a music application.
